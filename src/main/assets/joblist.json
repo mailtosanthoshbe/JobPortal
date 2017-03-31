@@ -1,0 +1,153 @@
+[
+    {
+        "id":"usajobs:462530600",
+        "position_title":"Nurse",
+		"experience":"2-5 Years"
+        "organization_name":"Indian Health Service",
+        "rate_interval_code":"PA",
+        "minimum":44214,
+        "maximum":63655,
+        "start_date":"2017-01-17",
+        "end_date":"2017-12-31",
+        "locations":[
+            "Gallup, NM"
+        ],
+        "url":"https://www.usajobs.gov/GetJob/ViewDetails/462530600"
+    },
+    {
+        "id":"usajobs:443307700",
+        "position_title":"Registered Nurse RN (3SE)",
+        "experience":"2-5 Years"
+        "organization_name":"Veterans Affairs, Veterans Health Administration",
+        "rate_interval_code":"PA",
+        "minimum":68579,
+        "maximum":123411,
+        "start_date":"2016-07-01",
+        "end_date":"2017-03-31",
+        "locations":[
+            "Loma Linda, CA"
+        ],
+        "url":"https://www.usajobs.gov/GetJob/ViewDetails/443307700"
+    },
+    {
+        "id":"usajobs:439076700",
+        "position_title":"Registered Nurse",
+        "experience":"2-5 Years"
+        "organization_name":"Veterans Affairs, Veterans Health Administration",
+        "rate_interval_code":"PA",
+        "minimum":64114,
+        "maximum":106876,
+        "start_date":"2016-05-16",
+        "end_date":"2017-05-15",
+        "locations":[
+            "Leeds, MA"
+        ],
+        "url":"https://www.usajobs.gov/GetJob/ViewDetails/439076700"
+    },
+    {
+        "id":"usajobs:439113100",
+        "position_title":"Nursing Assistant",
+        "experience":"2-5 Years"
+        "organization_name":"Veterans Affairs, Veterans Health Administration",
+        "rate_interval_code":"PA",
+        "minimum":28398,
+        "maximum":46366,
+        "start_date":"2016-05-16",
+        "end_date":"2017-05-15",
+        "locations":[
+            "Northampton, MA"
+        ],
+        "url":"https://www.usajobs.gov/GetJob/ViewDetails/439113100"
+    },
+    {
+        "id":"usajobs:460464300",
+        "position_title":"Nurse Anesthetist",
+        "organization_name":"Indian Health Service",
+        "experience":"2-5 Years"
+        "rate_interval_code":"PA",
+        "minimum":144037,
+        "maximum":187245,
+        "start_date":"2016-12-21",
+        "end_date":"2017-12-20",
+        "locations":[
+            "Rosebud, SD"
+        ],
+        "url":"https://www.usajobs.gov/GetJob/ViewDetails/460464300"
+    },
+    {
+        "id":"usajobs:460468400",
+        "experience":"2-5 Years"
+        "position_title":"Nurse Anesthetist",
+        "organization_name":"Indian Health Service",
+        "rate_interval_code":"PA",
+        "minimum":144037,
+        "maximum":187245,
+        "start_date":"2016-12-21",
+        "end_date":"2017-12-20",
+        "locations":[
+            "Rosebud, SD"
+        ],
+        "url":"https://www.usajobs.gov/GetJob/ViewDetails/460468400"
+    },
+    {
+        "id":"usajobs:461217000",
+        "position_title":"Practical Nurse",
+        "organization_name":"U.S. Army Medical Command",
+        "rate_interval_code":"PA",
+        "experience":"2-5 Years"
+        "minimum":37124,
+        "maximum":47598,
+        "start_date":"2017-01-01",
+        "end_date":"2017-06-30",
+        "locations":[
+            "El Paso, TX",
+            "Fort Bliss, TX"
+        ],
+        "url":"https://www.usajobs.gov/GetJob/ViewDetails/461217000"
+    },
+    {
+        "id":"usajobs:461582700",
+        "position_title":"Nurse Practitioner",
+        "experience":"2-5 Years"
+        "organization_name":"Indian Health Service",
+        "rate_interval_code":"PA",
+        "minimum":69081,
+        "maximum":99361,
+        "start_date":"2017-01-05",
+        "end_date":"2017-06-30",
+        "locations":[
+            "Nespelem, WA"
+        ],
+        "url":"https://www.usajobs.gov/GetJob/ViewDetails/461582700"
+    },
+    {
+        "id":"usajobs:461583600",
+        "position_title":"Nurse Practitioner",
+        "experience":"2-5 Years"
+        "organization_name":"Indian Health Service",
+        "rate_interval_code":"PA",
+        "minimum":69081,
+        "maximum":99361,
+        "start_date":"2017-01-05",
+        "end_date":"2017-06-30",
+        "locations":[
+            "Nespelem, WA"
+        ],
+        "url":"https://www.usajobs.gov/GetJob/ViewDetails/461583600"
+    },
+    {
+        "id":"usajobs:461779400",
+        "position_title":"Nurse Practitioner",
+        "experience":"2-5 Years"
+        "organization_name":"Indian Health Service",
+        "rate_interval_code":"PA",
+        "minimum":57671,
+        "maximum":111874,
+        "start_date":"2017-01-09",
+        "end_date":"2018-01-08",
+        "locations":[
+            "Lame Deer, MT"
+        ],
+        "url":"https://www.usajobs.gov/GetJob/ViewDetails/461779400"
+    }
+]

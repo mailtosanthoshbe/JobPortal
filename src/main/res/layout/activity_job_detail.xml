@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:minHeight="25dp"
+        android:text="Title"
+        android:textColor="@color/blue"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_org"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:gravity="center"
+        android:minHeight="25dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:text="company"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_exp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_org"
+        android:drawableLeft="@drawable/ic_experience"
+        android:drawablePadding="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:minHeight="25dp"
+        android:text="experience" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_exp"
+        android:drawableLeft="@drawable/ic_location"
+        android:drawablePadding="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:minHeight="25dp"
+        android:text="location" />
+
+    <TextView
+        android:id="@+id/tv_skill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_location"
+        android:drawableLeft="@drawable/ic_skills"
+        android:drawablePadding="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:minHeight="25dp"
+        android:text="skills" />
+
+    <TextView
+        android:id="@+id/tv_postdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_skill"
+        android:drawableLeft="@drawable/ic_date"
+        android:drawablePadding="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:minHeight="25dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:text="9 days ago" />
+
+    <!--divider-->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_postdate"
+        android:background="@color/aluminum" />
+
+    <TextView
+        android:id="@+id/tv_desLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider"
+        android:gravity="center"
+        android:minHeight="25dp"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:text="Job Description"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_jobDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_desLabel"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:minLines="6"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:scrollbars="vertical"
+        android:enabled="false"
+        android:text="mimimum 2- years of experience" />
+
+    <Button
+        android:id="@+id/but_apply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Apply" />
+</RelativeLayout>

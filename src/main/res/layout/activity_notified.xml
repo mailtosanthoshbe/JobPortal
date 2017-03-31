@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="5dp"
+    android:layout_gravity="center"
+    card_view:cardElevation="5dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--1. Info Layout-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/noti_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/job_no_match"
+                android:textColor="@color/blue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/noti_tv_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:paddingLeft="5dp"
+                android:text="@string/job_description"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/noti_et_jd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="textMultiLine"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:scrollbars="vertical"
+                android:text="mimimum 2- years of experience" />
+        </LinearLayout>
+
+        <!--2. Quiz Options Layout-->
+        <RadioGroup
+            android:id="@+id/noti_radio_options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/noti_radioOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="option 1" />
+
+            <RadioButton
+                android:id="@+id/noti_radioTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="option 2" />
+
+            <RadioButton
+                android:id="@+id/radioThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="option 3" />
+            <RadioButton
+                android:id="@+id/radioFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="option 4" />
+        </RadioGroup>
+
+        <!--3. Footer Button Layout-->
+        <LinearLayout
+            android:id="@+id/noti_but_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <Button
+                android:id="@+id/noti_but_back"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="skip" />
+
+            <Button
+                android:layout_width="0dp"
+                android:id="@+id/noti_but_confirm"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="submit" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+
+
